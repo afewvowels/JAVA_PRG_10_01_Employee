@@ -15,7 +15,14 @@ public class EmployeeProductionWorker {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        ProductionWorker pw = new ProductionWorker("Bob", "111-A", "12-12-99",
+                                1, 15.0);
+        
+        System.out.println(pw.getHireDate());
+        System.out.println(pw.getName());
+        System.out.println(pw.getNumber());
+        System.out.println(pw.getHireDate());
+        System.out.println(pw.getShift());
+        System.out.println(pw.getPayRate());
     }
-    
 }
